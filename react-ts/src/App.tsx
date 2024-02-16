@@ -5,7 +5,7 @@ function App() {
   const todos = [new Todo('Learn React'), new Todo('Learn TypeScript')];
 
   return (
-    <div className="App">
+    <div>
       <Todos items={todos} />
     </div>
   );
